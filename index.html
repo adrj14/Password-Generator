@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <h1>Password Generator</h1>
+    <p class="subtitle">Create a strong, random password</p>
+
+    <div class="password-box">
+      <input type="text" id="passwordOutput" readonly placeholder="Your password will show here">
+      <button id="copyBtn">Copy</button>
+    </div>
+    <p id="copyMessage" class="copy-message"></p>
+
+    <div class="strength-box">
+      <div class="strength-bar">
+        <div id="strengthFill" class="strength-fill"></div>
+      </div>
+      <p id="strengthText" class="strength-text">Strength: —</p>
+    </div>
+
+    <div class="option">
+      <label for="lengthInput">Password length: <span id="lengthDisplay">12</span></label>
+      <input type="range" id="lengthInput" min="4" max="32" value="12">
+    </div>
+
+
+    <div class="option checkbox-option">
+      <input type="checkbox" id="uppercaseCheck" checked>
+      <label for="uppercaseCheck">Include uppercase letters (A-Z)</label>
+    </div>
+
+    <div class="option checkbox-option">
+      <input type="checkbox" id="lowercaseCheck" checked>
+      <label for="lowercaseCheck">Include lowercase letters (a-z)</label>
+    </div>
+
+    <div class="option checkbox-option">
+      <input type="checkbox" id="numbersCheck" checked>
+      <label for="numbersCheck">Include numbers (0-9)</label>
+    </div>
+
+    <div class="option checkbox-option">
+      <input type="checkbox" id="specialCheck" checked>
+      <label for="specialCheck">Include special characters (!@#$)</label>
+    </div>
+
+    <button id="generateBtn" class="generate-button">Generate Password</button>
+
+    <p id="errorMessage" class="error-message"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
