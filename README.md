@@ -12,11 +12,11 @@ A simple, beginner-friendly password generator built with plain HTML, CSS, and J
 - Copy the generated password to your clipboard with one click
 - Live password strength meter (Weak / Medium / Strong)
 
-## Demo
-![Password Generator Screenshot](screenshot1.png)
-![Password Strength Meter Screenshot](screenshot2.png)
+## 📸 Screenshots
 
-Open `index.html` in any web browser — no installation or setup needed.
+![Screenshot 1](screenshot1.png)
+
+![Screenshot 2](screenshot2.png)
 
 ## File Structure
 
