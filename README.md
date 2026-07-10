@@ -14,14 +14,14 @@ A simple, beginner-friendly password generator built with plain HTML, CSS, and J
 
 ## 📸 Screenshots
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](./screenshot1.png)
 
-![Screenshot 2](screenshot2.png)
+![Screenshot 2](./screenshot2.png)
 
 ## File Structure
 
 ```
-beginner-version/
+PASSWORD GENERATOR/
 ├── screenshot1.png
 ├── screenshot2.png
 ├── index.html
